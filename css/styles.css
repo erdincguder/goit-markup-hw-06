@@ -1035,6 +1035,7 @@ body.mobile-menu-open {
   .footer-contact-text {
     margin-top: 0;
     width: 100%;
+    text-align: center;
   }
   .footer-text {
     padding-bottom: 0;
@@ -1044,6 +1045,8 @@ body.mobile-menu-open {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 0 16px;
   }
   .footer-contact-form .submit-form {
     width: 165px;
@@ -1061,5 +1064,16 @@ body.mobile-menu-open {
   }
   .footer-container {
     width: 100%;
+  }
+  .footer-social-media-text {
+    text-align: center;
+  }
+  .footer-contents {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
   }
 }
