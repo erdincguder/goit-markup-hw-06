@@ -1014,4 +1014,34 @@ body.mobile-menu-open {
     width: 24px;
     height: 24px;
   }
+  .footer-social-media-container {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    padding: 0;
+    gap: 72px;
+  }
+  .footer-content {
+    padding: 0;
+  }
+  .footer-social-media {
+    padding-bottom: 0;
+  }
+  .footer-contact-text {
+    margin-top: 0;
+  }
+  .footer-text {
+    padding-bottom: 0;
+  }
+  .footer-contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-contact-form .submit-form {
+    width: 165px;
+    height: 40px;
+  }
 }
