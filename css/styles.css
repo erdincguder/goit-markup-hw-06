@@ -905,7 +905,7 @@ body.mobile-menu-open {
   height: 24px;
 }
 .mobile-nav-flex {
-  display: flex;
+  display: none;
   flex-direction: row;
   gap: 149px;
 }
@@ -934,6 +934,7 @@ body.mobile-menu-open {
     display: none;
   }
   .mobile-nav-flex {
+    display: flex;
     width: 100%;
     /* height: 56px; */
     margin-left: 16px;
@@ -971,6 +972,7 @@ body.mobile-menu-open {
   }
   .hero {
     padding: 0;
+    margin-bottom: 96px;
   }
   .features-flex .text-contents {
     font-weight: 500;
