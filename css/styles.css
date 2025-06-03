@@ -78,7 +78,8 @@ h3 {
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 .container-team {
@@ -371,6 +372,10 @@ h3 {
   background-color: var(--cloud);
   border: 1px solid var(--light-slate);
   border-radius: 4px;
+}
+.features-svg {
+  display: flex;
+  flex-direction: row;
 }
 
 .icon-antenna,
@@ -919,7 +924,10 @@ body.mobile-menu-open {
   display: flex;
   flex-direction: column;
 }
-/* Body scroll engelleme */
+
+* {
+  outline: 1px solid red !important; /* Tüm elemanlara kırmızı çerçeve ekler */
+}
 
 /* ----MOBILE MENU END---- */
 
@@ -935,8 +943,7 @@ body.mobile-menu-open {
   }
   .mobile-nav-flex {
     display: flex;
-    width: 100%;
-    /* height: 56px; */
+    /* width: 100%; */
     margin-left: 16px;
     margin-top: 17.5px;
     margin-bottom: 17.5px;
@@ -962,9 +969,6 @@ body.mobile-menu-open {
     flex-direction: column;
     gap: 72px;
     margin-top: 96px;
-  }
-  .features-svg-box {
-    display: none;
   }
   .section-features {
     margin: 0 16px;
@@ -1015,7 +1019,7 @@ body.mobile-menu-open {
     height: 24px;
   }
   .footer-social-media-container {
-    width: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin: 0 16px;
@@ -1030,6 +1034,7 @@ body.mobile-menu-open {
   }
   .footer-contact-text {
     margin-top: 0;
+    width: 100%;
   }
   .footer-text {
     padding-bottom: 0;
@@ -1043,5 +1048,18 @@ body.mobile-menu-open {
   .footer-contact-form .submit-form {
     width: 165px;
     height: 40px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .features-svg-box {
+    display: none;
+  }
+  .submit-form {
+    min-width: auto;
+    width: 100%;
+  }
+  .footer-container {
+    width: 100%;
   }
 }
