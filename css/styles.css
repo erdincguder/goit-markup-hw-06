@@ -213,6 +213,8 @@ h3 {
     ),
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   position: relative;
 }
 
@@ -926,14 +928,14 @@ body.mobile-menu-open {
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 100%;
-    margin: 0;
+    /* margin: 0; */
   }
   .nav-flex {
     display: none;
   }
   .mobile-nav-flex {
-    max-width: 100%;
-    max-height: 56px;
+    width: 100%;
+    /* height: 56px; */
     margin-left: 16px;
     margin-top: 17.5px;
     margin-bottom: 17.5px;
@@ -968,14 +970,7 @@ body.mobile-menu-open {
     margin-bottom: 96px;
   }
   .hero {
-    margin-bottom: 96px;
-
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office-mobile.jpg);
-    background-repeat: no-repeat;
+    padding: 0;
   }
   .features-flex .text-contents {
     font-weight: 500;
@@ -1001,5 +996,20 @@ body.mobile-menu-open {
     gap: 48px;
     justify-content: center;
     align-items: center;
+  }
+  .section-hero-text {
+    font-size: 36px;
+    line-height: 111%;
+    padding: 72px 0;
+    margin-left: 52px;
+    margin-right: 52px;
+  }
+  .btn-hero {
+    margin-bottom: 72px;
+  }
+  .btn-mobile-menu-icon {
+    padding: 0;
+    width: 24px;
+    height: 24px;
   }
 }
