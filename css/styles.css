@@ -929,7 +929,7 @@ body.mobile-menu-open {
 
 /* ----MEDIA QUERYS START---- */
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 100%;
   }
@@ -1083,5 +1083,19 @@ body.mobile-menu-open {
   }
   .footer-contact {
     margin-bottom: 96px;
+  }
+  .modal-form {
+    width: 288px;
+    height: 623px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .form-input {
+    width: 256px;
+    height: 40px;
+  }
+  .form-comment {
+    width: 256px;
+    height: 120px;
   }
 }
