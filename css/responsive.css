@@ -216,9 +216,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    margin: 0 auto;
     padding: 0 16px;
     width: 100%;
+    margin-bottom: 96px;
   }
   .section-features {
     margin: 0 auto;
@@ -231,7 +231,7 @@
   .features-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 24px;
   }
   img {
     max-width: 100%;
