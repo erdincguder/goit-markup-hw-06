@@ -251,4 +251,46 @@
     padding: 112px;
     margin-bottom: 96px;
   }
+  .footer-container {
+    width: 100%;
+  }
+  .footer-logo-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content {
+    padding: 0;
+  }
+  .footer-social-media-container {
+    width: 100%;
+    padding-left: 108px;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .footer-logo-box {
+    width: 264px;
+    margin-bottom: 48px;
+  }
+  .footer-text {
+    padding: 0;
+  }
+  .footer-contact-text {
+    margin: 0;
+    padding-bottom: 16px;
+  }
+  .footer-logo {
+    padding-top: 96px;
+  }
+  .footer-social-media {
+    padding-bottom: 0;
+  }
+  .footer-contact {
+    margin-bottom: 96px;
+  }
+  .footer-contents {
+    margin-right: 164px;
+  }
+  .footer-logo-contents {
+    padding: 0;
+  }
 }
