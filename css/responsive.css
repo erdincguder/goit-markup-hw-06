@@ -231,7 +231,7 @@
   .features-flex {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 24px;
+    row-gap: 72px;
   }
   img {
     max-width: 100%;
@@ -292,5 +292,17 @@
   }
   .footer-logo-contents {
     padding: 0;
+  }
+  .team-card-items {
+    row-gap: 64px;
+  }
+  .portfolio-text {
+    padding-top: 96px;
+  }
+  .portfolio-cards {
+    row-gap: 72px;
+  }
+  .section-portfolio {
+    margin-bottom: 96px;
   }
 }
