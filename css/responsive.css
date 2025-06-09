@@ -365,6 +365,7 @@
   .features-flex {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     gap: 24px;
     margin-top: 0;
   }
@@ -450,6 +451,18 @@
   }
   .form-comment {
     width: 360px;
+  }
+  .features-svg-box {
+    display: unset;
+  }
+  .nav-flex {
+    display: unset;
+  }
+  .mobile-nav-flex {
+    display: none;
+  }
+  .mobile-menu-navbar {
+    display: none;
   }
 }
 
