@@ -1,177 +1,3 @@
-/* ----MEDIA QUERYS START---- */
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .container {
-    width: 100%;
-  }
-  .nav-flex {
-    display: none;
-  }
-  .mobile-nav-flex {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    margin-top: 17.5px;
-    margin-bottom: 17.5px;
-  }
-  /* .menu-no-scroll {
-      overflow: hidden;
-      position: fixed;
-      width: 100%;
-      height: 100%;
-    } */
-  .section-hero {
-    width: 100%;
-  }
-  .section-hero-text {
-    padding-bottom: 72px;
-  }
-  .features-flex {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 72px;
-    margin-top: 96px;
-  }
-  .section-features {
-    margin: 0 16px;
-    margin-bottom: 96px;
-  }
-  .hero {
-    padding: 0;
-    margin-bottom: 96px;
-  }
-  .features-flex .text-contents {
-    font-weight: 500;
-  }
-  .features-flex h3 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
-    letter-spacing: 0.02em;
-    text-align: center;
-  }
-  .team-card-items {
-    display: flex;
-    flex-direction: column;
-    gap: 72px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 24px;
-  }
-  .portfolio-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    justify-content: center;
-    align-items: center;
-  }
-  .section-hero-text {
-    font-size: 36px;
-    line-height: 111%;
-    padding: 72px 0;
-    margin-left: 52px;
-    margin-right: 52px;
-  }
-  .btn-hero {
-    margin-bottom: 72px;
-  }
-  .btn-mobile-menu-icon {
-    padding: 0;
-    width: 24px;
-    height: 24px;
-  }
-  .footer-social-media-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    gap: 72px;
-  }
-  .footer-content {
-    padding: 0;
-  }
-  .footer-social-media {
-    padding-bottom: 0;
-  }
-  .footer-contact-text {
-    margin-top: 0;
-    width: 100%;
-    text-align: center;
-  }
-  .footer-text {
-    width: 100%;
-    padding-bottom: 0;
-    padding: 0 16px;
-  }
-  .footer-contact-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 16px;
-  }
-  .footer-contact-form .submit-form {
-    width: 165px;
-    height: 40px;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-  }
-  .features-svg-box {
-    display: none;
-  }
-  .submit-form {
-    min-width: auto;
-    width: 100%;
-  }
-  .footer-container {
-    width: 100%;
-  }
-  .footer-social-media-text {
-    text-align: center;
-  }
-  .footer-contents {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0;
-  }
-  .footer-logo {
-    text-align: center;
-  }
-  .footer-logo-contents {
-    width: 100%;
-  }
-  .section-portfolio {
-    margin: 0 16px;
-  }
-  .footer-contact {
-    margin-bottom: 96px;
-  }
-  .modal-form {
-    width: 288px;
-    height: 623px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  .form-input {
-    width: 256px;
-    height: 40px;
-  }
-  .form-comment {
-    width: 256px;
-    height: 120px;
-  }
-}
-
 @media (min-width: 768px) {
   .container {
     width: 100%;
@@ -462,6 +288,17 @@
     display: none;
   }
   .mobile-menu-navbar {
+    display: none;
+  }
+  .section-features h3 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+  }
+  .footer-contact {
     display: none;
   }
 }
