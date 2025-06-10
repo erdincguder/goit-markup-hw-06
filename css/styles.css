@@ -384,12 +384,8 @@ img {
   text-align: center;
 }
 
-.footer-text {
-  padding: 0;
-}
-
 .footer-content {
-  padding: 0 156px;
+  padding: 0 16px;
 }
 .features .features-svg {
   display: flex;
@@ -964,11 +960,13 @@ body.mobile-menu-open {
 }
 .mobile-nav-flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   margin-top: 17.5px;
   margin-bottom: 17.5px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .mobile-menu-pages-links
   .mobile-menu-pages-items:first-child

@@ -8,7 +8,11 @@
   .section-hero {
     width: 100%;
   }
+  .mobile-nav-flex {
+    display: none;
+  }
   .nav-flex {
+    display: flex;
     width: 100%;
   }
   .navbar-flex {
@@ -37,7 +41,13 @@
   }
 
   .team-card-items {
+    flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 64px;
+    margin: 0;
+    /* padding: 0 108px; */
+    padding-bottom: 96px;
   }
   .features {
     display: flex;
@@ -48,21 +58,24 @@
     margin-bottom: 96px;
   }
   .section-features {
-    margin: 0 auto;
+    margin: 0;
     width: 100%;
   }
-  .features-card {
+  .features-flex .features-card {
     width: 356px;
     height: 120px;
   }
   .features-flex {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    gap: 24px;
     row-gap: 72px;
+    margin: 0;
   }
   img {
     display: block;
-    max-width: 100%;
+    width: 356px;
   }
   .features-flex h3 {
     font-family: var(--font-family);
@@ -121,15 +134,20 @@
   .footer-logo-contents {
     padding: 0;
   }
-  .team-card-items {
-    row-gap: 64px;
-  }
+
   .portfolio-text {
     padding-top: 96px;
   }
-  .portfolio-cards {
-    row-gap: 72px;
+  .team-text {
+    padding-top: 96px;
   }
+  .portfolio-cards {
+    gap: 24px;
+    row-gap: 72px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .section-portfolio {
     margin-bottom: 96px;
   }
@@ -138,12 +156,13 @@
   .container {
     max-width: 1440px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 156px;
   }
   .nav-flex {
     display: flex;
     border-bottom: 1px solid var(--cornflower);
     height: 72px;
+    margin: 0 156px;
   }
   .mobile-nav-flex {
     display: none;
@@ -281,9 +300,7 @@
   .features-svg-box {
     display: unset;
   }
-  .nav-flex {
-    display: unset;
-  }
+
   .mobile-nav-flex {
     display: none;
   }
@@ -300,6 +317,20 @@
   }
   .footer-contact {
     display: none;
+  }
+  .contact-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-top: 24px;
+  }
+  .contact .contact-items {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
   }
 }
 
