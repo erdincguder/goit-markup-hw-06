@@ -103,10 +103,11 @@
     padding: 0;
   }
   .footer-social-media-container {
+    flex-direction: row;
     width: 100%;
     padding-left: 108px;
     gap: 24px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
   .footer-logo-box {
     width: 264px;
@@ -150,6 +151,17 @@
 
   .section-portfolio {
     margin-bottom: 96px;
+  }
+  .footer-contact-form {
+    width: unset;
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+    flex-direction: row;
+    padding: 0;
+  }
+  .footer-contact-text {
+    text-align: left;
   }
 }
 @media (min-width: 1158px) {
